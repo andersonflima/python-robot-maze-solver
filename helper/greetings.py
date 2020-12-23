@@ -4,8 +4,8 @@ class Greetings:
             row_print = ""
             for value in row:
                 if value == "x":
-                    row_print += f'\033[1;31;40m {value} ' + " "
+                    row_print += f'\033[0;31;40m {value} ' + " "
                 else:
-                    row_print += f'\033[1;30;40m {value} ' + " "
+                    row_print += f'\033[0;37;40m {value} ' + " "
 
-            print(row_print,f'\033[1;37;40m')
+            print(row_print,f'\033[0;37;40m')

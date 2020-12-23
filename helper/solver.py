@@ -14,7 +14,7 @@ class MazeSolver:
         col_num = len(maze[0])
 
         if row == row_num -1 and col == col_num -1:
-            maze[row][col] = "\033[1;32;40m*"
+            maze[row][col] = "\033[0;32;40m*"
             print()
             self.greetings.print_maze(maze)
             print()
@@ -28,7 +28,7 @@ class MazeSolver:
 
 
         sol.append("r")
-        maze[row][col] = "\033[1;32;40m*"
+        maze[row][col] = "\033[0;32;40m*"
         going_right = self.solve_maze_helper(maze, sol, row, col +1)
         if going_right is not None:
             return going_right
@@ -37,7 +37,7 @@ class MazeSolver:
 
 
         sol.append("d")
-        maze[row][col] = "\033[1;32;40m*"
+        maze[row][col] = "\033[0;32;40m*"
         going_down = self.solve_maze_helper(maze, sol, row +1, col)
         if going_down is not None:
             return going_down
