@@ -1,6 +1,6 @@
-#Python robot maze solver
+# Python robot maze solver
 
-###This is a maze robot solution program
+### This is a maze robot solution program
 
 The default maze is:
 ```   
