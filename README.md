@@ -16,6 +16,9 @@ When the robot make a movement the '.' will change to '*'
 The robot will start at 0,0 the first row and column
 The robot main objective is to reach the last row and column
 The robot can just com right and down, or backtracking his action
+In the end, the code will print the maze solution a list of steps to reach the end
+
+## Obs: If the solution is None, it is because the robot has no way to reach the goal
 
 If you want you can change the maze but keep in mind the robot only can go right and down
 
