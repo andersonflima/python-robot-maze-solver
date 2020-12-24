@@ -14,8 +14,8 @@
   Explaining the maze the 'X' are the walls and the '.' the free way that the robot can pass through
   When the robot make a movement the '.' will change to '*'
 
-  The robot will start at 0,0 the first row and column
-  The robot main objective is to reach the last row and column
+  The robot will start at 0,0 the first row and column 
+  The robot main objective is to reach the last row and column at 3,3
   The robot can just com right and down, or backtracking his action
   In the end, the code will print the maze solution a list of steps to reach the end
 
