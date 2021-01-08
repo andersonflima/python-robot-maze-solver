@@ -3,12 +3,8 @@
 ### This is a maze robot solution program
 
   The default maze is:
-  ```
-    . . . .
-    . x x .
-    . . . x
-    x x . .
-  ```
+
+  ![alt text](https://i0.wp.com/algorithms.tutorialhorizon.com/files/2015/04/Rat-In-A-Maze-Puzzle.png)
 
 ## Getting Started
 
@@ -21,18 +17,17 @@ python  ^3.8
 ```
 
 # Description
-  Explaining the maze the 'X' are the walls and the '.' the free way that the robot can pass through
-  When the robot make a movement the '.' will change to '*'
+  Explaining the maze, the 'X' are the walls and the '.' the free way the robot can pass
+  When the robot makes a move, the '.' will change to '*'
 
-  The robot will start at 0,0 the first row and column 
-  The robot main objective is to reach the last row and column at 3,3
-  The robot can just com right and down, or backtracking his action
+  The robot will start at 0.0 in the first row and column
+  The main objective of the robot is to reach the last row and column in 4.4
+  The robot can go right, left, or up and go back in its action
   In the end, the code will print the maze solution a list of steps to reach the end
 
 ### Obs: If the solution is None, it is because the robot has no way to reach the goal
 
-  If you want you can change the maze but keep in mind the robot only can go right and down
-
+  If you want you can change the maze.
 
 ## Run
 
