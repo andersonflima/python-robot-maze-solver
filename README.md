@@ -35,7 +35,7 @@ python  ^3.8
   Run the main file (main.py) to see what happen
 
 ```
-python main.pay
+python main.py
 ```
 
 This command will generate 2 (two) outputs, the maze and the solution found by the robot
